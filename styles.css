@@ -8,6 +8,10 @@ body {
   color: #333;
 }
 
+home {
+   display:grid
+}
+
 header, nav, main, footer {
   padding: 20px;
   text-align: center;
@@ -168,4 +172,5 @@ footer {
 
 .subscribe-button:hover {
   background-color: #0056b3;
+
 }
