@@ -13,7 +13,7 @@ home {
   grid-template-columns: 1fr 1fr 1fr;
   
 }
-.home-pc{
+.home-pic{
   width: 100%;
   height: 100%;
   object-fit: cover
@@ -181,4 +181,5 @@ footer {
   background-color: #0056b3;
 
 }
+
 
