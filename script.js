@@ -66,7 +66,7 @@ function switchLanguage(lang) {
 }
 
 // Default Language
-switchLanguage('en');
+switchLanguage('ar');
 
 // Handle Booking Form Submission
 document.getElementById('booking-form').addEventListener('submit', function (e) {
@@ -97,4 +97,5 @@ document.getElementById('availability-form').addEventListener('submit', function
   } else {
       resultElement.textContent = `Sorry, ${location} is not available on ${date} at ${time}. Please try another time.`;
   }
+
 });
